@@ -1,0 +1,10 @@
+WordCount implementation using MapReduce.
+
+Project Description:
+
+Project uses a single WordCount.java program (jar compiled into three .classes):
+1. The mapper maps the contents input files (all .txt files in the input folder) into key,value pairs corresponding to word, frequency.
+2. The reducer takes the mapped key, value pairs and reduces them to a single list of key, value pairs and then returned in an output file mapping the word, frequency pairs as single entries/sum for across all input files.
+
+For a tutorial see:
+https://www.youtube.com/watch?v=6sK3LDY7Pp4
